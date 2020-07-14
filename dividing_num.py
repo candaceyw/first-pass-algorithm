@@ -12,12 +12,14 @@ def divides_self(num):
     while new_num >= 10:
     #   get the right most digit of num using num % 10
         new_num % 10
-    #   if the digit is 0, return False
+    #   if the digit is 0, 
+    #       return False
         if new_num == 0:
             return False
     #   take that digit, and get remainder of original num / digit
 
-    #   if remainder is NOT 0, return False
+    #   if remainder is not 0:
+    #       return False
 
     #   remove the last digit from the number using // 10 (integer division)
     # return True
